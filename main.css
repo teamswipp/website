@@ -1,0 +1,313 @@
+a > img {
+	border-radius: 15px;
+	max-width: 100%;
+	margin: 20px 0px 20px 0px;
+	width: 350px;
+}
+
+a > img:hover {
+	transition-property: opacity;
+	transition-duration: 0.3s;
+	opacity: 0.8;
+}
+
+img.portrait {
+	width: 240px;
+	border-radius: 120px;
+	filter: grayscale(70%);
+}
+
+div.row:not(:first-child) {
+	padding-top: 40px;
+}
+
+video {
+	filter: brightness(110%);
+	height: 500px;
+	float: right;
+	padding-top: 50px;
+}
+
+nav.navbar {
+	border: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	font-size: 15pt;
+}
+
+nav a.navbar-brand {
+	pointer-events: none;
+}
+
+nav.shrink a.navbar-brand {
+	pointer-events: auto;
+}
+
+.navbar-default ul.navbar-right li a {
+	padding: 0px 0px 4px 0px;
+	margin: 15px;
+	color: #ddd;
+	border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.navbar-default ul.navbar-right li a:hover, .navbar-default ul.navbar-right li a.active {
+	color: #fff;
+	border-bottom: 2px solid rgba(235, 235, 235, 1.0);
+	transition: 0.5s;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-toggle {
+	box-shadow: none;
+	border: none;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: rgba(255, 235, 235, .1);
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+	background-color: #ddd;
+	height: 3px;
+}
+
+footer {
+	background-color: rgba(35, 35, 35, .9);
+}
+
+.light, .btn {
+	color: rgb(35, 35, 35);
+}
+
+.btn {
+	margin: auto;
+	font-size: 14pt;
+	padding: 15px 22px;
+	margin: 25px 0px 15px 0px;
+	border: 2px solid rgba(35, 35, 35, .9);
+}
+
+.btn:hover {
+	border: 2px solid transparent;
+	background-color: rgba(35, 35, 35, .9);
+	color: white;
+	transition: 0.3s;
+}
+
+section.container {
+	padding: 40px;
+}
+
+section.logo {
+	padding: 0;
+	background-color: black;
+	width: 100%;
+	min-height: 215px;
+}
+
+section.logo > div {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+section.logo > div.container > div > p {
+	color: #4ba;
+	text-align: left;
+	font-size: 20pt;
+	padding-top: 0.8em;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 1px #000;
+}
+
+section.logo > div.container > div > p:nth-child(2) {
+	animation-delay: 2s;
+	color: #4a9;
+}
+
+section.logo > div.container > div > p:nth-child(3) {
+	animation-delay: 4s;
+	color: #498;
+}
+
+section.logo > div.container > div > p:nth-child(4) {
+	animation-delay: 6s;
+	color: #387;
+}
+
+section.logo > div > div {
+	position: absolute;
+	padding-top: 190px;
+	background: url("images/logo-s.png") no-repeat 0px 35px;
+	background-size: 160px auto;
+	min-height: 215px;
+}
+
+section.logo > div > div.relative {
+	position: relative;
+	padding-top: 35px;
+}
+
+section.logo a {
+	height: 100%;
+	width: 300px;
+	padding: 0px 160px 130px 0px;
+}
+
+section.gradient {
+	padding: 40px 0px;
+	background: linear-gradient(#f0f7fb, #fdfdfe);
+	border-top: 2px solid #dbdee1;
+}
+
+section + section.gradient {
+	border-bottom: 2px solid #dbdee1;
+}
+
+section.gradient:last-of-type {
+	border-bottom: none;
+}
+
+p {
+	font-size: 14pt;
+	line-height: 34px;
+	text-align: center;
+}
+
+h1, h2 {
+	text-align: center;
+	line-height: 36px;
+}
+
+.pad {
+	padding: 0px 40px 0px 40px;
+	text-align: center;
+}
+
+p.pad {
+	padding-top: 0;
+}
+
+.normal {
+	background-color: rgba(255, 255, 255, 0.0);
+}
+
+.navbar-header {
+	margin-top: -1px;
+}
+
+.navbar-brand {
+	transition-property: opacity;
+	transition-duration: 0.3s;
+
+	padding: 0px !important;
+
+	margin-top: 0px;
+	background: url("images/logo-s.png") no-repeat;
+	background-size: 56px 100%;
+	width: 56px;
+	height: 50px;
+	opacity: 0;
+}
+
+.shrink, .darken {
+	background-color: rgb(35, 35, 35);
+	opacity: 0.9;
+	height: 50px;
+}
+
+.shrink .navbar-brand {
+	transition-property: opacity;
+	transition-duration: 0.3s;
+
+	margin-top: 0px;
+	background: url("images/logo-s.png") no-repeat;
+	background-size: 56px 100%;
+	width: 56px;
+	height: 50px;
+	opacity: 1.0;
+}
+
+.copyright p {
+	padding: 15px;
+	letter-spacing: 1px;
+	font-size: 10pt;
+	color: white;
+	margin: 0;
+}
+
+li.strike {
+	text-decoration: line-through;
+}
+
+section.roadmap > div {
+	background: url("images/transport.png") repeat-y center;
+	background-size: 7% auto;
+	padding-top: 0;
+	margin-top: 40px;
+}
+
+section.roadmap > div {
+	text-align: left;
+}
+
+section.roadmap > div > div:last-child {
+	margin-bottom: 0px;
+}
+
+section.roadmap > div > div > div:first-child {
+	padding: 20px 10px 20px 10px;
+	border-radius: 12px;
+	background-color: rgba(40,40,40,0.8);
+	color: white;
+}
+
+section.roadmap > div > div > div:first-child > h3 {
+	text-align: center;
+}
+
+section.roadmap > div > div:last-child > div:first-child {
+	margin-bottom: 0;
+}
+
+section.roadmap li {
+	font-size: 12pt;
+	padding-top: 0.8em;
+}
+
+@media(max-width: 767px) {
+	section.logo > div.container > div {
+		width: 100%;
+		background-position: center 35px;
+	}
+
+	section.logo > div.container > div > p {
+		width: 100%;
+		text-align: center;
+	}
+
+	div.navbar-collapse {
+		background-color: rgb(10, 10, 10);
+		opacity: 0.9;
+	}
+}
+
+h3 > i {
+	font-size: smaller;
+}
+
+table.table > tbody > tr > td {
+	border-top: none;
+	padding: 10px;
+	text-align: left;
+}
+
+section.center {
+	text-align: center;
+}
+
+section.roadmap ul {
+	padding-right: 40px;
+}
