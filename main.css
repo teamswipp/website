@@ -311,3 +311,26 @@ section.center {
 section.roadmap ul {
 	padding-right: 40px;
 }
+
+div.badges > figure {
+	display: inline-block;
+	width: 25%;
+	padding: 20px 20px 0px 20px;
+}
+
+div.badges > figure img {
+	width: 100%;
+	margin: 0;
+}
+
+div.badges > figure > figcaption {
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+@media(max-width: 767px) {
+	div.badges > figure {
+		dfloat: left;
+		width: 66%;
+	}
+}
