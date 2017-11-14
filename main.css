@@ -334,3 +334,11 @@ div.badges > figure > figcaption {
 		width: 66%;
 	}
 }
+
+div > div.downloads:not(:first-child) {
+	padding-top: 0;
+}
+
+div.downloads > div > a{
+	width: 100%;
+}
