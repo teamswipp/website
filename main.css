@@ -342,3 +342,43 @@ div > div.downloads:not(:first-child) {
 div.downloads > div > a{
 	width: 100%;
 }
+
+li > span {
+	font-size: smaller;
+	font-style: italic;
+}
+
+li > span > a {
+	color: #cff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+li > span > a:hover {
+	color: #e7ffff;
+}
+
+li > span > a:active {
+	color: #bbb;
+}
+
+h1:before, h2:before {
+	display: block;
+	content: " ";
+	height: 60px; /* 10 px extra */
+	margin-top: -60px;
+	visibility: hidden;
+}
+
+h1:before, h2:before {
+	height: 80px; /* 10 px extra */
+	margin-top: -80px;
+}
+
+tr.bg-success {
+        background-color: #dff0d8 !important;
+}
+
+h2 {
+	padding-top: 0.75em;
+}
