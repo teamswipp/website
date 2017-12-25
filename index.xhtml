@@ -139,7 +139,7 @@
 			</div>
 		</section>
 		<section class="gradient roadmap">
-			<h1>Roadmap</h1>
+			<h1 id="roadmap">Roadmap</h1>
 			<p class="pad">We have a preliminary roadmap subject to change as we develop Swipp and it's infrastructure.</p>
 			<div class="pad">
 				<div class="row">
@@ -150,10 +150,9 @@
 							<li class="strike">Initial financing.</li>
 							<li class="strike">Publish website.</li>
 							<li class="strike">Publish block explorer.</li>
-							<li>Update wallet and daemon source code.</li>
-							<li>Post announcement on bitcointalk.</li>
+							<li class="strike">Update wallet and daemon source code.</li>
+							<li class="strike">Post announcement on bitcointalk.</li>
 							<li>Rehaul some of the source code that seems to be in pretty rough shape.</li>
-							<li>Add support for additional exchange.</li>
 						</ul>
 					</div>
 				</div>
@@ -168,10 +167,25 @@
 									<a href="/specifications#adaptive-masternode-network">specifications page</a>.
 								</span>
 							</li>
-							<li>Publish web wallet (with mobile support).</li>
-							<li>Add donation-driven bounty system to the web site.</li>
-		        				<li>Slim down and improve the desktop wallet, making it more user-friendly.</li>
-							<li>Implement forum on the website.</li>
+							<li>
+								Implement masternode-backed bounty system.<br/>
+								<span>
+									This implementation is intended to facilitate the future development of the Swipp cryptocurrency.<br/>
+									Masternodes will be in charge of creating new bounties and governing the bounty-fund which will be replenished
+									using Swipp generated via newly created PoS and PoW blocks. Our initial plan is to allocate <strong>5%</strong>
+									of all the new currency generated on the network to the bounty-fund.<br/>
+									A web portal will be developed that will be hosted and synced between the masternodes, creating a fully decentralized
+									system where users can create new bounties, apply for bounties and claim bounty rewards.
+								</span>
+							</li>
+							<li>
+								Implement masternode-hosted web wallet (with mobile support).<br/>
+								<span>
+									A completely decentralized wallet solution hosted by the masternodes of the Swipp network. After registering and creating
+									a wallet, users will be able to deposit and withdraw funds directly via a web interface served by the masternodes.
+								</span>
+							</li>
+							<li>Slim down and improve the desktop wallet, making it more user-friendly.</li>
 						</ul>
 					</div>
 				</div>
@@ -183,7 +197,12 @@
 								Agreement with a Swedish business partner, offering co-location, storage,
 								server leasing and VPS rentouts. They will accept Swipp as a payment option.
 							</li>
-							<li>Implement financial data into the wallet (graphs showing price development and other good stuff)</li>
+							<li>
+								Implement statistical data into the QT wallet and web wallet.<br/>
+								<span>
+									This will show information such as the price development of the currency, the network hashrate and block difficulty.
+								</span>
+							</li>
 						</ul>
 					</div>
 				</div>
