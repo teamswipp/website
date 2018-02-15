@@ -1,8 +1,8 @@
 a > img {
 	border-radius: 15px;
 	max-width: 100%;
-	margin: 20px 0px 20px 0px;
-	width: 350px;
+	margin: 20px 10px 20px 10px;
+	height: 140px;
 }
 
 a > img:hover {
@@ -339,7 +339,7 @@ div > div.downloads:not(:first-child) {
 	padding-top: 0;
 }
 
-div.downloads > div > a{
+div.downloads > div > a {
 	width: 100%;
 }
 
