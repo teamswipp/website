@@ -377,9 +377,14 @@ h1:before, h2:before {
 }
 
 tr.bg-success {
-        background-color: #dff0d8 !important;
+	background-color: #dff0d8 !important;
 }
 
-h2 {
-	padding-top: 0.75em;
+footer > i {
+	color: white;
+}
+
+p.pad-bottom {
+	padding-bottom: 0.75em;
+}
 }
