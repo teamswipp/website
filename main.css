@@ -75,6 +75,7 @@ nav.shrink a.navbar-brand {
 }
 
 footer {
+	padding-top: 13px;
 	background-color: rgba(35, 35, 35, .9);
 }
 
@@ -380,9 +381,14 @@ tr.bg-success {
 	background-color: #dff0d8 !important;
 }
 
-footer > i {
+footer > p > a {
 	color: white;
 }
+
+footer > p > a:focus, footer > p > a:hover {
+	color: #999;
+}
+
 
 p.pad-bottom {
 	padding-bottom: 0.75em;
