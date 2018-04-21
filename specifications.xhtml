@@ -109,6 +109,37 @@
 					handle traffic from many different geographical locations, while also promoting better fault resistance
 					in case of outages on the network.
 				</p>
+				<h2 id="adaptive-masternode-network-explained">Adaptive masternode network explained</h2>
+				<p>
+					While traditional masternode coins calculate scores and evenly distribute that score between nodes on the
+					network when a block is found, the Swipp network will take a slightly different approach.
+					When a miner or a staker on the Swipp network finds a new block, we say the calculation is adaptive,
+					because it takes the distance to the masternodes into account while also considering the quantity
+					and proximity of masternodes to the finder.
+				</p>
+				<p>
+					The proximity from a given masternode to a finder is either zero or one. If the proximity between them found is one,
+					the masternode and the finder are in the same location on the earth.
+					However, if the proximity between them found is zero, the masternode and the finder are as far away from
+					each other as they can be - on opposite sides of the earth.
+				</p>
+				<h2 id="adaptive-masternode-scoring">Adaptive masternode scoring</h2>
+				<p>
+					When a block is found, each masternode receives a score calculated by the following formula:<br />
+					<strong>S = round(N * P&#178;)</strong><br />
+					Where <strong>N</strong> is the number of masternodes on the network and <strong>P</strong>
+					is the proximity to the finder.
+				</p>
+				<p>
+					Masternodes that can not be geographically determined, always receive a a proximity rating of 0.2. If a masternode
+					is hosted at the south pole, it will always receive a proximity rating of 0.8, regardless of where the finder of
+					the block is located.
+				</p>
+				<p>
+					Masternodes with a closed P2P port, not contributing to the network, will always receive a score of zero,
+					effectively hindering payments. If you host a masternode on the network, you can check if your P2P port is opened via the
+					<a href="http://explorer.swippcoin.com/masternodes">masternode tab on the block explorer</a>.
+				</p>
 			</div>
 		</section>
 		<section class="container light">
