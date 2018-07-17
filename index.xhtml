@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/js/navbar.js"></script>
+		<script type="text/javascript" src="/js/roadmap.js"></script>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -159,9 +160,14 @@
 		</section>
 		<section class="gradient roadmap">
 			<h1 id="roadmap">Roadmap</h1>
-			<p class="pad">We have a preliminary roadmap subject to change as we develop Swipp and it's infrastructure.</p>
+			<p class="container pad">
+				We have a preliminary roadmap subject to change as we develop Swipp and it's infrastructure.
+				On page load, the roadmap only shows milestones not yet completed. To show the complete roadmap
+				(with completed milestones), please press the button below.
+			</p>
+			<button type="button" class="btn btn-default">Show completed roadmap entries</button>
 			<div class="pad">
-				<div class="row">
+				<div class="row hide">
 					<div class="col-sm-offset-3 col-sm-6">
 						<h3><i>Q4</i> 2017</h3>
 						<ul>
@@ -174,7 +180,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row hide">
 					<div class="col-sm-offset-3 col-sm-6">
 						<h3><i>Q1</i> 2018</h3>
 						<ul>
@@ -191,7 +197,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row hide">
 					<div class="col-sm-offset-3 col-sm-6">
 						<h3><i>Q2</i> 2018</h3>
 						<ul>

@@ -240,8 +240,21 @@ p.pad {
 }
 
 li.strike {
-	text-decoration: line-through;
+	text-decoration: #ccc line-through;
 }
+
+.hide {
+	display: none;
+}
+
+section.roadmap {
+	text-align: center;
+}
+
+section.roadmap > button {
+	margin-bottom: 0;
+}
+
 
 section.roadmap > div {
 	background: url("images/transport.png") repeat-y center;
@@ -389,8 +402,6 @@ footer > p > a:focus, footer > p > a:hover {
 	color: #999;
 }
 
-
 p.pad-bottom {
 	padding-bottom: 0.75em;
-}
 }
