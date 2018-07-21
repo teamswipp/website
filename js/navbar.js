@@ -11,9 +11,6 @@
    GNU Affero General Public License for more details. Full license available
    under http://www.swippcoin.com/LICENSE */
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
 $(document).ready(function() {
 	$(window).scroll(function() {
 		if (!$(".navbar").hasClass("shrink") && $(document).scrollTop() > 15) {
