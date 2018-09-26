@@ -14,8 +14,8 @@
 a > img {
 	border-radius: 15px;
 	max-width: 100%;
-	margin: 20px 10px 20px 10px;
-	height: 140px;
+	margin: 20px 20px 20px 0px;
+	max-height: 140px;
 }
 
 a > img.cc {
@@ -49,7 +49,7 @@ nav.navbar {
 	border: none;
 	text-transform: capitalize;
 	font-variant: small-caps;
-	font-size: 15pt;
+	font-size: 14pt;
 }
 
 nav a.navbar-brand {
