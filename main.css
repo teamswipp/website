@@ -350,7 +350,8 @@ div.badges > figure {
 }
 
 div.badges > figure img {
-	width: 100%;
+	width: none;
+	max-width: none;
 	height: auto;
 	margin: 0;
 }
