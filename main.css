@@ -264,48 +264,66 @@ li.strike {
 	display: none;
 }
 
-section.roadmap {
+section.roadmap, section.bounties {
 	text-align: center;
 }
 
-section.roadmap > button {
+section.roadmap > button, section.roadmap > button {
 	margin-bottom: 0;
 }
-
 
 section.roadmap > div {
 	background: url("images/transport.png") repeat-y center;
 	background-size: 7% auto;
-	padding-top: 0;
 	margin-top: 40px;
 }
 
-section.roadmap > div {
+section.roadmap > div, section.bounties > div {
+	padding-top: 0;
 	text-align: left;
 }
 
-section.roadmap > div > div:last-child {
+section.roadmap > div > div:last-child, section.bounties > div > div:last-child {
 	margin-bottom: 0px;
 }
 
-section.roadmap > div > div > div:first-child {
+section.roadmap > div > div > div:first-child,
+section.bounties > div > div > div:first-child {
 	padding: 20px 10px 20px 10px;
 	border-radius: 12px;
 	background-color: rgba(40,40,40,0.8);
 	color: white;
 }
 
-section.roadmap > div > div > div:first-child > h3 {
+section.roadmap > div > div > div:first-child > h3,
+section.bounties > div > div > div:first-child > h3 {
 	text-align: center;
 }
 
-section.roadmap > div > div:last-child > div:first-child {
+section.roadmap > div > div:last-child > div:first-child,
+section.bounties > div > div:last-child > div:first-child {
 	margin-bottom: 0;
 }
 
-section.roadmap li {
+section.roadmap li, section.bounties li, section.bounties > div > div > div > p {
 	font-size: 12pt;
 	padding-top: 0.8em;
+}
+
+section.bounties > div > div > div:first-child {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+section.bounties h4 {
+	margin: 30px 0 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+section.bounties p.smaller {
+	font-size: small;
+	line-height: 2em;
 }
 
 @media(max-width: 767px) {
@@ -339,7 +357,7 @@ section.center {
 	text-align: center;
 }
 
-section.roadmap ul {
+section.roadmap ul, section.bounties li {
 	padding-right: 40px;
 }
 
