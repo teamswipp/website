@@ -430,6 +430,20 @@ tr.bg-success {
 	background-color: #dff0d8 !important;
 }
 
+tr.bg-danger, div.bg-danger {
+	background-color: #f5dce0 !important;
+}
+
+div.info-box {
+	width: 1.5em;
+	height: 1.5em;
+	border: 1px solid #f5bcc0;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 7px;
+	vertical-align: bottom;
+}
+
 footer > p > a {
 	color: white;
 }
