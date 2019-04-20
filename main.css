@@ -455,3 +455,8 @@ footer > p > a:focus, footer > p > a:hover {
 p.pad-bottom {
 	padding-bottom: 0.75em;
 }
+
+section.resources > div.row {
+	display: flex;
+	align-items: center;
+}
