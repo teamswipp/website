@@ -460,3 +460,7 @@ section.resources > div.row {
 	display: flex;
 	align-items: center;
 }
+
+i {
+	vertical-align: middle;
+}
