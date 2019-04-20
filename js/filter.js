@@ -1,4 +1,4 @@
-/* Copyright (C) 2017-2018 The Swipp Team
+/* Copyright (C) 2017-2019 The Swipp Team
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU Affero General Public License as published by
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	topRoadMapBox.css("padding-top","0px")
 
-	$("section.roadmap > button").on("click", function() {
+	$("section.roadmap > button, section.bounties > button").on("click", function() {
 		$(this).hide();
 		topRoadMapBox.css("padding-top","40px");
 		$(".hide").removeClass("hide");
